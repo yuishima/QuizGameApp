@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>クイズアプリ</title>
+</head>
+<body>
+  <h1><div id = "headLine">ようこそ</div></h1>
+  <input type="button" value="開始" id="start"></input>
+  <div id="container">
+    <h2>
+      <p id="question"></p>
+    </h2>
+    <h3>
+      <div id = "genre"></div>
+      <div id = "difficulty"></div>
+    </h3>
+  </div>
+    <ul id="answers"></ul>
+    <p id="result"></p>
+    <button id="restart">Restart</button>
+  <style type="text/css">
+    #container{
+      border: solid 1px #000;
+      border-width:1px 0px;
+    }
+    li{
+      list-style: none;
+    }
+  </style>
+  <script src="QuizApp.js"></script>
+</body>
+</html>
